@@ -3,7 +3,7 @@
 // All calls to api.cubosapiens.world go through here
 // ─────────────────────────────────────────────────────────────
 
-import type { Tool, ApiResponse, CounterResponse } from "@/types"
+import type { Tool, ApiResponse, CounterResponse , Games} from "@/types"
 
 // Base URL of your Hono API
 // process.env.NEXT_PUBLIC_API_URL lets you change this
@@ -127,7 +127,7 @@ export async function trackVisit(): Promise<void>
 }
 
 // ── Games ──────────────────────────────────────────────────────
-export async function fetchGames(): Promise<Game[]> {
+export async function fetchGames(): Promise<Games[]> {
 
   try {
     const res = await fetch(`${API_URL}/api/games`)
@@ -144,7 +144,7 @@ export async function fetchGames(): Promise<Game[]> {
 
 }
 
-export async function fetchGame(slug: string): Promise<Game | null> {
+export async function fetchGame(slug: string): Promise<Games | null> {
 
   try {
     const res = await fetch(`${API_URL}/api/games/${slug}`)

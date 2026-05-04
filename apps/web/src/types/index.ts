@@ -1,8 +1,3 @@
-// ─────────────────────────────────────────────────────────────
-// CUBOSAPIENS — Shared TypeScript types
-// These are used across all components and pages
-// ─────────────────────────────────────────────────────────────
-
 export type ToolCategory =
   | "image"
   | "pdf"
@@ -26,7 +21,20 @@ export interface Tool {
   order:       number
   createdAt:   string
 }
-
+export interface Games{
+  id:          number
+  name:        string
+  slug:        string
+  description: string
+  genre:    ToolCategory
+  icon:        string
+  url:         string
+  isLive:      boolean
+  isFeatured:  boolean
+  playCount:  number
+  order:       number
+  createdAt:   string
+}
 export interface Blog {
   id:          number
   title:       string

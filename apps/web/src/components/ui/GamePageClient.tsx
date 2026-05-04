@@ -60,7 +60,7 @@ export default function GamePageClient({ game, recommended }: Props)
               className="tool-fullscreen-exit"
               onClick={() => setIsFullscreen(false)}
             >
-              ✕ Exit Fullscreen &nbsp;<kbd>Esc</kbd>
+              ✕ &nbsp;<kbd>Esc</kbd>
             </button>
           </div>
           <iframe
@@ -98,11 +98,11 @@ export default function GamePageClient({ game, recommended }: Props)
 
           {/* Game info bar */}
           <div className="game-page-header">
-            <div className="game-page-icon">{game.icon.endsWith(".png") || tool.icon.endsWith(".svg") ? (
+            <div className="game-page-icon">{game.icon.endsWith(".png") || game.icon.endsWith(".svg") ? (
                       <Image
                         src={`/icons/${game.icon}`}
                         alt={game.name}
-                        className="tool-card-icon-img"
+                        className="game-page-icon"
                         width={48}
                         height={48}
                         unoptimized
@@ -173,7 +173,7 @@ function RecommendedGameCard({ game }: { game: Game })
                   <Image
                     src={`/icons/${game.icon}`}
                     alt={game.name}
-                    className="tool-card-icon-img"
+                    className="recommended-icon"
                     width={48}
                     height={48}
                     unoptimized
