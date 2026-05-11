@@ -91,10 +91,10 @@ export default async function HomePage()
       ══════════════════════════════════ */}
       <section className="hero">
 
-        <div className="hero-eyebrow">
+        {/* <div className="hero-eyebrow">
           <span className="hero-dot" />
           Free · No signup · Works in browser
-        </div>
+        </div> */}
 
         <h1 className="hero-title">
           Everything you need.<br />
@@ -102,20 +102,20 @@ export default async function HomePage()
         </h1>
 
         <p className="hero-subtitle">
-          Free tools, games and AI — built for everyone.
+          Free tools, games and AI - built for everyone.
           No accounts. No cost. Just open and use.
         </p>
 
         <div className="hero-pills">
-          <span className="hero-pill"><i className="fas fa-tools"></i> Tools</span>
-          <span className="hero-pill"><i className="fas fa-gamepad"></i> Games</span>
-          <span className="hero-pill"><i className="fas fa-robot"></i>  AI</span>
-          {/*<span className="hero-pill"><i className="fas fa-user"></i> {counters.visits > 0 ? counters.visits.toLocaleString() : "0"}</span>*/}
+          <a href="./tools"><span className="hero-pill"><i className="fas fa-tools"></i> Tools</span></a>
+          <a href="./games"><span className="hero-pill"><i className="fas fa-gamepad"></i> Games</span></a>
+          <a href="./ai"><span className="hero-pill"><i className="fas fa-robot"></i>  AI</span></a>
+          {/* <span className="hero-pill"><i className="fas fa-user"></i> {counters.visits > 0 ? counters.visits.toLocaleString() : "0"}</span> */}
 
-          <span className="hero-pill hero-pill-live">
+          {/* <span className="hero-pill hero-pill-live">
             <span className="games-live-dot" style={{ width: 6, height: 6 }} />
             Always Free
-          </span>
+          </span> */}
         </div>
 
       </section>
@@ -137,7 +137,6 @@ export default async function HomePage()
         />
       </section>
 <div className="section" style={{ paddingBottom: 0 }}>
-        <AdUnit slot="3749734432" />
       </div>
       {/* ══════════════════════════════════
           GAMES
@@ -155,34 +154,15 @@ export default async function HomePage()
           </div>
         </div>
 
-        {games.length > 0 ? (
+
           <GameGrid
             games={games}
             seeMoreHref="/games"
             seeMoreLabel="All Games"
             maxItems={11}
           />
-        ) : (
-          <div className="tool-grid-faded">
-            {[
-              { icon: "🐍", name: "Snake"  },
-              { icon: "🟩", name: "Wordle" },
-              { icon: "🧠", name: "Memory" },
-              { icon: "♟️", name: "Chess"  },
-            ].map((g, i) => (
-              <div key={i} className="tool-card tool-card-soon">
-                <div className="tool-card-badge">
-                  <span className="badge-soon">SOON</span>
-                </div>
-                <div className="tool-card-icon">{g.icon}</div>
-                <div><p className="tool-card-name">{g.name}</p></div>
-              </div>
-            ))}
-          </div>
-        )}
       </section>
 <div className="section" style={{ paddingBottom: 0 }}>
-        <AdUnit slot="3749734432" />
       </div>
       {/* ══════════════════════════════════
           AI TOOLS
