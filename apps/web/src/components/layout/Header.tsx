@@ -52,16 +52,14 @@ export default function Header()
   useEffect(() => {
     if(searchOpen) searchRef.current?.focus()
   }, [searchOpen])
-
-  function handleSearch(e: React.FormEvent) {
-    e.preventDefault()
-    if(search.trim()) {
-      router.push(`/search?q=${encodeURIComponent(search.trim())}`)
-      setSearchOpen(false)
-      setSearch("")
-    }
+function handleSearch(e: React.FormEvent) {
+  e.preventDefault()
+  if(search.trim()) {
+    router.push(`/search?q=${encodeURIComponent(search.trim())}`)
+    setSearchOpen(false)
+    setSearch("")
   }
- 
+}
 const handleShare = async () => {
   const shareData = {
     title: "CUBOSAPIENS",
@@ -80,7 +78,6 @@ const handleShare = async () => {
     console.error("Share failed:", error)
   }
 }
-
 
   return (
     <>
@@ -188,6 +185,12 @@ const handleShare = async () => {
         {/* ── MOBILE DROPDOWN MENU ── */}
         {menuOpen && (
           <div className="header-dropdown" ref={menuRef}>
+           <button
+  className="dropdown-promo-btn"
+  onClick={handleShare}
+>
+  <i className="fa-solid fa-share-nodes"></i> Share Website
+</button>
 
             {/* Nav links */}
             <div className="dropdown-section">
@@ -226,19 +229,7 @@ const handleShare = async () => {
 
             <div className="dropdown-divider" />
 
-            {/* Promo */}
-            <div className="dropdown-promo">
-              <p className="dropdown-promo-title"><i className="fa-solid fa-share-nodes"></i> Share CUBOSAPIENS</p>
-              <p className="dropdown-promo-desc">Free tools & games for everyone — share with friends!</p>
-              <button
-                className="dropdown-promo-btn"
-                onClick={handleShare}
-                
-              
-              >
-                Share Link
-              </button>
-            </div>
+          
 
           </div>
         )}

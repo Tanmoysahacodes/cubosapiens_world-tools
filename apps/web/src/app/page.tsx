@@ -1,9 +1,9 @@
-import { fetchTools, fetchGames, fetchCounters } from "@/lib/api"
+import { fetchTools, fetchGames } from "@/lib/api"
 import ToolGrid   from "@/components/ui/ToolGrid"
 import GameGrid   from "@/components/ui/GameGrid"
 // import ColorBends from "@/components/colorbends"
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import AdUnit from "@/components/ui/AdUnit"
+// import AdUnit from "@/components/ui/AdUnit"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
