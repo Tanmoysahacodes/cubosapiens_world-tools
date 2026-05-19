@@ -3,7 +3,12 @@ import Link from "next/link"
 import Image from"next/image";
 export default function Footer()
 {
-  const tools = ["GPS CAM", "QR Generator", "PDF Merger", "Compressor", "Word Counter"]
+ const tools = [
+  { label: "GPS CAM",      href: "https://gps-cam.cubosapiens.world" },
+  { label: "QR Generator", href: "https://qr.cubosapiens.world" },
+  { label: "PDF Merger",   href: "/tools/pdf-merger" },
+  { label: "🎮 All Games", href: "/games" },
+]
   const legal = [
     { l: "Privacy Policy", h: "/privacy"  },
     { l: "Terms of Use",   h: "/terms"    },
@@ -62,7 +67,7 @@ export default function Footer()
           <div>
             <p className="footer-col-title">Tools</p>
             {tools.map(t => (
-              <Link key={t} href={`/tools/${t.toLowerCase().replace(/ /g, "-")}`} className="footer-link">{t}</Link>
+             <a key={t.href} href={t.href} className="footer-link" target="_blank" rel="noopener noreferrer">{t.label}</a>
             ))}
           </div>
 
