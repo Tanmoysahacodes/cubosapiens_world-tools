@@ -1,16 +1,90 @@
-# CUBOSAPIENS
 
-> One platform for free browser based tools, games and AI utilities.
+<p align="center">
+  <img width="1200" height="630" alt="CuboSapiens Banner" src="https://github.com/user-attachments/assets/58b57e42-16f8-4f45-bc95-d8c9a90eb544">
+</p>
 
-No signup. No paywalls. No unnecessary complexity.
+<h1 align="center">CUBOSAPIENS</h1>
 
-Built for developers, students, creators, gamers, and the open source community.
+<p align="center">
+  One platform for free browser based tools, games and AI utilities.
+</p>
+
+<p align="center">
+  No signup • No paywalls • No unnecessary complexity
+</p>
+
+<p align="center">
+  Built for developers, students, creators, gamers and the open source community
+</p>
+
+<p align="center">
+  <a href="https://www.cubosapiens.world">
+    <img src="https://img.shields.io/badge/Live_Platform-000000?style=for-the-badge&logo=vercel&logoColor=white">
+  </a>
+
+  <a href="https://github.com/rk192324217/cubosapiens_world-tools/stargazers">
+    <img src="https://img.shields.io/github/stars/rk192324217/cubosapiens_world-tools?style=for-the-badge">
+  </a>
+
+  <a href="https://github.com/rk192324217/cubosapiens_world-tools/network/members">
+    <img src="https://img.shields.io/github/forks/rk192324217/cubosapiens_world-tools?style=for-the-badge">
+  </a>
+
+  <a href="https://github.com/rk192324217/cubosapiens_world-tools/issues">
+    <img src="https://img.shields.io/github/issues/rk192324217/cubosapiens_world-tools?style=for-the-badge">
+  </a>
+
+  <a href="https://github.com/rk192324217/cubosapiens_world-tools/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/rk192324217/cubosapiens_world-tools?style=for-the-badge">
+  </a>
+</p>
 
 ---
 
-# Live Platform
+## GSSoC 2026 Badges
 
-🔗 https://www.cubosapiens.world
+<p align="center">
+  <img src="https://img.shields.io/badge/GSSoC-2026-ff69b4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Open_Source-Community-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge">
+</p>
+
+---
+
+## Connect With CuboSapiens
+
+<p align="center">
+  <a href="https://github.com/rk192324217/cubosapiens_world-tools">
+    <img src="https://skillicons.dev/icons?i=github" height="50">
+  </a>
+
+  <a href="https://www.linkedin.com/company/117084639">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="50">
+  </a>
+
+  <a href="https://www.instagram.com/cubosapiens/">
+    <img src="https://skillicons.dev/icons?i=instagram" height="50">
+  </a>
+
+  <a href="https://www.youtube.com/channel/UCsG60rRXZ302vmYDYg4j97g">
+    <img src="https://skillicons.dev/icons?i=youtube" height="50">
+  </a>
+
+  <a href="mailto:cubosapiens@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="50">
+  </a>
+</p>
+
+---
+
+## Contributors
+
+<p align="center">
+  <a href="https://github.com/rk192324217/cubosapiens_world-tools/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=rk192324217/cubosapiens_world-tools">
+  </a>
+</p>
 
 ---
 
@@ -18,19 +92,21 @@ Built for developers, students, creators, gamers, and the open source community.
 
 CuboSapiens is a growing open source ecosystem of:
 
-- browser based tools
+- Browser based tools
 - HTML5 games
 - AI powered utilities
-- developer utilities
-- productivity applications
-- experimental web applications
+- Developer utilities
+- Productivity applications
+- Experimental web applications
 
-The goal is to build a lightweight and accessible platform where anyone can:
-- use tools instantly
-- play browser games
-- contribute open source projects
-- improve UI/UX
-- experiment with web technologies
+The platform focuses on:
+
+- Accessibility
+- Lightweight applications
+- Community driven development
+- Open source contribution
+- Modern web technologies
+- Browser first experiences
 
 ---
 
@@ -38,17 +114,21 @@ The goal is to build a lightweight and accessible platform where anyone can:
 
 - Completely browser based
 - No signup required
-- Lightweight and fast
 - Open source ecosystem
-- Mobile responsive
-- Modern UI/UX
-- Community driven development
 - Modular architecture
-- GSSoC 2026 participation
+- Responsive UI
+- Fast edge deployment
+- Community driven development
+- Mobile friendly
+- Scalable infrastructure
 
 ---
 
 # Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,ts,tailwind,postgres,prisma,cloudflare">
+</p>
 
 | Layer | Technology |
 |---|---|
@@ -62,82 +142,61 @@ The goal is to build a lightweight and accessible platform where anyone can:
 | Language | TypeScript |
 
 ---
-## Contributors
-
-Thanks goes to these wonderful people:
-
-<a href="https://github.com/rk192324217/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=rk192324217/cubosapiens_world-tools" />
-</a>
-
----
 
 # Browser Tools & Games Ecosystem
 
-CuboSapiens contains a growing ecosystem of standalone browser based tools and games.
-
-## Applications Structure
-
-```txt
 Applications/
  ├── Tools/
  ├── Games/
-```
 
 Example:
 
-```txt
-Applications/Games/cubosapiens-games-snake
-Applications/Games/cubosapiens_HP_quiz
+Applications/Games/cubosapiens-games-snake  
+Applications/Games/cubosapiens_HP_quiz  
 
-Applications/Tools/cubosapiens_qr_generator
+Applications/Tools/cubosapiens_qr_generator  
 Applications/Tools/cubosapiens_markdown_editor
-```
-
-Most projects follow a lightweight structure:
-
-```txt
-index.html
-style.css
-script.js
-README.md
-assets/
-```
 
 ---
 
-# Types of Projects Accepted
+# Supported Project Categories
 
 ## Tools
-- calculators
-- editors
-- generators
-- converters
+
+- Calculators
+- Editors
 - AI utilities
-- developer tools
-- productivity apps
+- Generators
+- Productivity apps
+- Developer tools
+- Browser utilities
 
 ## Games
+
 - HTML5 games
-- puzzle games
-- arcade games
-- multiplayer browser games
-- educational games
-- quiz games
+- Arcade games
+- Quiz games
+- Educational games
+- Multiplayer browser games
+- Puzzle games
 
 ---
 
 # Running the Project Locally
 
-## Main Monorepo
+## Clone Repository
 
-Install dependencies:
+```bash
+git clone https://github.com/rk192324217/cubosapiens_world-tools.git
+````
+
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run development environment:
+## Start Development Server
 
 ```bash
 npm run dev
@@ -145,125 +204,123 @@ npm run dev
 
 ---
 
-# Running Standalone Tools & Games
+# Running Standalone Applications
 
-Most standalone projects can be run using VS Code Live Server.
+Most standalone tools and games can run using Live Server.
 
 ## Steps
 
-1. Open the project folder
-2. Right click `index.html`
-3. Click `Open with Live Server`
+1. Open project folder
+2. Right click index.html
+3. Click Open with Live Server
 
 ---
 
 # Contributing
 
 We welcome:
-- developers
-- designers
-- open source contributors
-- students
-- game developers
-- frontend engineers
-- backend engineers
 
-## Before Contributing
+* Developers
+* Designers
+* Students
+* Open source contributors
+* Frontend engineers
+* Backend engineers
+* Game developers
 
-Please read:
+---
 
-- `CONTRIBUTING.md`
-- `CONTRIBUTING_TOOLS.md`
-- `CODE_OF_CONDUCT.md`
+# Contribution Guidelines
+
+Before contributing please read:
+
+* CONTRIBUTING.md
+* CONTRIBUTING_TOOLS.md
+* CODE_OF_CONDUCT.md
 
 ---
 
 # GSSoC 2026 Participation
 
-CuboSapiens is participating in GirlScript Summer of Code 2026.
-
-Issues are categorized using:
-- difficulty labels
-- type labels
-- quality labels
+CuboSapiens is officially participating in GirlScript Summer of Code 2026.
 
 Look for:
-- `gssoc`
-- `good first issue`
+
+* gssoc
+* good first issue
 
 inside the Issues section.
-
----
-
-# Screenshots
-
-> Add platform screenshots, tool previews, and game previews here later.
 
 ---
 
 # Repository Goals
 
 The vision of CuboSapiens is to become:
-- a browser first software ecosystem
-- a community driven open source platform
-- a hub for lightweight web tools and games
-- a contributor friendly learning ecosystem
+
+* A browser first software ecosystem
+* A contributor friendly learning platform
+* A hub for lightweight web applications
+* A scalable open source community
+* A modern ecosystem for tools and games
 
 ---
 
 # Future Roadmap
 
-Planned future additions include:
-- AI utilities
-- multiplayer browser games
-- contributor showcase system
-- analytics dashboard
-- PWA enhancements
-- global search
-- offline support
-- community blogs
+* AI utilities
+* Multiplayer browser games
+* PWA support
+* Offline support
+* Analytics dashboard
+* Contributor showcase system
+* Community blogs
+* Global search
 
 ---
 
 # Support the Project
 
-If you find this project useful, consider starring the repository:
-
-⭐ https://github.com/rk192324217/cubosapiens_world-tools
+<p align="center">
+  <a href="https://github.com/rk192324217/cubosapiens_world-tools">
+    <img src="https://img.shields.io/badge/Star_This_Repository-black?style=for-the-badge&logo=github">
+  </a>
+</p>
 
 ---
 
-# Connect With the Maintainer
+# Maintainer
 
 ## RK
 
-- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" width="14"/> GitHub  
-  https://github.com/rk192324217
+<p align="left">
+  <a href="https://github.com/rk192324217">
+    <img src="https://skillicons.dev/icons?i=github" height="40">
+  </a>
 
-- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="14"/> LinkedIn  
-  https://www.linkedin.com/in/rk192324217/
+  <a href="https://www.linkedin.com/in/rk192324217/">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="40">
+  </a>
 
-- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg" width="14"/> Discord  
-  `dust_9525`
-
-- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" width="14"/> Email  
-  srk8115939@gmail.com
+  <a href="mailto:srk8115939@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" height="40">
+  </a>
+</p>
 
 ---
 
-# CuboSapiens Community & Socials
+# Repository Badges
 
-- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="14"/> LinkedIn  
-  https://www.linkedin.com/company/117084639
+<p align="center">
+  <img src="https://img.shields.io/badge/Built_With-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
 
-- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" width="14"/> YouTube  
-  https://www.youtube.com/channel/UCsG60rRXZ302vmYDYg4j97g
+  <img src="https://img.shields.io/badge/Powered_By-Cloudflare-orange?style=for-the-badge&logo=cloudflare&logoColor=white">
 
-- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" width="14"/> Instagram  
-  https://www.instagram.com/cubosapiens/
+  <img src="https://img.shields.io/badge/Open_Source-Community-blue?style=for-the-badge">
 
-- <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" width="14"/> Contact  
-  cubosapiens@gmail.com
+  <img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=for-the-badge">
+
+  <img src="https://img.shields.io/badge/Maintained-Yes-success?style=for-the-badge">
+</p>
 
 ---
 
@@ -271,12 +328,11 @@ If you find this project useful, consider starring the repository:
 
 MIT License
 
-See:
-`LICENSE`
+See `LICENSE`
 
 ---
 
+<p align="center">
+  Built by RK and the CuboSapiens Open Source Community
+</p>
 
-# Built By
-
-RK and the CuboSapiens Open Source Community
