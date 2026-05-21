@@ -168,7 +168,7 @@ export default async function HomePage()
             <h2 className="section-title">
               AI Tools
               {aiTools.filter(t => t.isLive).length === 0 && (
-                <span className="section-title-muted">— coming soon</span>
+                <span className="section-title-muted">- coming soon</span>
               )}
             </h2>
           </div>
