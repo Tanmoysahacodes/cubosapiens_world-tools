@@ -30,7 +30,6 @@ export default function PWAInstallPrompt()
   const deferredPrompt = e as BeforeInstallPromptEvent
   setPrompt(deferredPrompt)
 
-  // console.log("PWA EVENT CAPTURED ✅")
 
   setVisible(true)
     }
