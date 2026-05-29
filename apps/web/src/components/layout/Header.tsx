@@ -157,7 +157,7 @@ export default function Header({ hasLiveAi }: { hasLiveAi: boolean }) {
 
             {/* Desktop search bar */}
             <form onSubmit={handleSearch} className="header-search-form !hidden lg:!flex items-center">
-              <span className="header-search-icon">⌕</span>
+              <span className="header-search-icon lg:text-[15px] xl:text-[17px] leading-none">⌕</span>
               <input
                 className="header-search !w-full max-w-[140px] xl:max-w-[220px]"
                 value={search}

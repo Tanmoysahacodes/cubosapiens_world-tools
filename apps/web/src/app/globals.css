@@ -2629,6 +2629,19 @@ a {
   line-height: 1;
 }
 
+@media (min-width: 1024px) {
+  .header-search-icon {
+    font-size: 22px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .header-search {
+    padding-left: 38px;
+  }
+}
+
 .header-search {
   width: 200px;
   padding: 8px 14px 8px 32px;
